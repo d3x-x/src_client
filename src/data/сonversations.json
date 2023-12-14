@@ -1,0 +1,234 @@
+[
+	{
+		"title": "Продавець-консультант",
+		"text": "Чи можу я вам що-небудь порадити? \n У нас великий вибiр одягу на будь-який смак!",
+		"answers": [
+			{
+				"text": "Так, хотiв би подивитися",
+				"callback": ["Services-ShowMenu", "clothing_shop"]
+			},
+			{ "text": "Нi, дякую" }
+		]
+	},
+	{
+		"title": "Тату-мастер",
+		"text": "Вiтаю! Хочете зробити татуювання?",
+		"answers": [
+			{ "text": "Так, покажiть ескiзи", "callback": ["Services-ShowMenu", "tattoo_shop"] },
+			{ "text": "Нi, поки не вирiшив" }
+		]
+	},
+	{
+		"title": "Перукар",
+		"text": "Хочеш виглядати стильно?",
+		"answers": [
+			{ "text": "Так, хотiлося б", "callback": ["Services-ShowMenu", "barbershop"] },
+			{ "text": "Нi, все вже чудово" }
+		]
+	},
+	{
+		"title": "Пластичний хiрург",
+		"text": "Вiтаю! Ви бажаєте зробити пластичну операцiю?",
+		"answers": [
+			{
+				"text": "Так, хочу щось змiнити",
+				"callback": ["Services-ShowMenu", "surgeon"]
+			},
+			{ "text": "Нi, дякую" }
+		]
+	},
+	
+	{
+		"title": "Банкiр",
+		"text": "Вiтаю, бажаєте провести банкiвськi операцiї?",
+		"answers": [
+			{ "text": "Все правильно", "callback": ["Services-ShowMenu", "bank"] },
+			{ "text": "Нi, iншим разом" }
+		]
+	},
+	{
+		"title": "Продавець 24/7",
+		"text": "Вiтаю, що бажаєте сьогоднi придбати?",
+		"answers": [
+			{ "text": "Покажiть товар", "callback": ["Services-ShowMenu", "supermarket"] },
+			{ "text": "Дякую, наразi нiчого не потрiбно" }
+		]
+	},
+	
+	{
+		"title": "Продавець зброї",
+		"text": "Привiт, вирiшив придбати боєприпаси? \n У нас сьогоднi якраз нова поставка!",
+		"answers": [
+			{
+				"text": "Звичайно, все як завжди",
+				"callback": ["Services-ShowMenu", "weapons"]
+			},
+			{ "text": "Нi, наразi вистачить" }
+		]
+	},
+	{
+		"title": "Лiцензiар",
+		"text": "Вiтаю! Цiкавитеся оформленням лiцензiй?",
+		"answers": [
+			{ "text": "Так, менi потрiбна лiцензiя", "callback": ["Services-ShowMenu", "licenses"] },
+			{ "text": "Нi, до побачення" }
+		]
+	},
+	{
+		"title": "Паспортник",
+		"text": "Вiтаю! Хочете змiнити iм'я або прiзвище?",
+		"answers": [
+			{
+				"text": "Так, хочу змiнити документи",
+				"callback": ["Services-ShowMenu", "passport"]
+			},
+			{ "text": "Нi, до побачення" }
+		]
+	},
+	
+	{
+		"title": "Менеджер",
+		"text": "Привiт! Хочеш вибрати недорогий автомобiль?",
+		"answers": [
+			{
+				"text": "Так, покажiть, що у вас є",
+				"callback": ["Services-ShowMenu", "cheap_carshop"]
+			},
+			{ "text": "Нi, вибачте за турботу" }
+		]
+	},
+	{
+		"title": "Менеджер",
+		"text": "Доброго дня! Цiкавитеся покупкою нового авто?",
+		"answers": [
+			{
+				"text": "Так, покажiть, що у вас є в продажу",
+				"callback": ["Services-ShowMenu", "mid_carshop"]
+			},
+			{ "text": "Нi, дякую" }
+		]
+	},
+	{
+		"title": "Менеджер по продажам",
+		"text": "Ласкаво просимо до нашого автосалону! \n Обираєте новий автомобiль?",
+		"answers": [
+			{
+				"text": "Так, покажiть, що у вас є в продажу",
+				"callback": ["Services-ShowMenu", "premium_carshop"]
+			},
+			{ "text": "Нi, до побачення" }
+		]
+	},
+	{
+		"title": "Sonny Barger",
+		"text": "Привiт! Обираєш новий мотоцикл?",
+		"answers": [
+			{ "text": "Так, щось на кшталт цього", "callback": ["Services-ShowMenu", "bikeshop"] },
+			{ "text": "Нi, до зустрiчi" }
+		]
+	},	
+	{
+		"title": "Незнайомець",
+		"text": "Привiт! Бачу, ти тут новачок? \n Якщо ти тiльки прилетiв, то тобi варто оформити документи! \n Я скину тобi координати, куди тобi потрiбно направитися. Удачi!",
+		"answers": [
+			{ "text": "Привiт, дуже дякую!", "callback": ["Blips-MarkNearest", "Мерiя"] },
+			{ "text": "Нi, я вже все зробив" }
+		]
+	},
+	{
+		"title": "Скутерист",
+		"text": "Привiт! Потрiбен скутер в оренду, всього за 150$ готiвкою?",
+		"answers": [
+			{ "text": "Так, давай", "callback": ["Services-ShowMenu", "scooter_rent"] },
+			{ "text": "Нi, дякую" }
+		]
+	},
+	{
+		"title": "Бригадир",
+		"text": "Привiт! Хочеш працювати у нас на будiвництвi?",
+		"answers": [
+			{ "text": "Так, я хочу працювати", "callback": ["Jobs-ShowMenu", "Building"] },
+			{ "text": "Нi, вибачте" }
+		]
+	},
+	{
+		"title": "Санчо",
+		"text": "Привiт.. скажу одразу, робота у нас не зовсiм легальна. \n Якщо вiзьмешся - можуть бути проблеми з полiцiєю",
+		"answers": [
+			{ "text": "Я готовий до труднощiв", "callback": ["Jobs-ShowMenu", "Car_Theft"] },
+			{ "text": "Нi, поки" }
+		]
+	},
+	{
+		"title": "Поштар",
+		"text": "Привiтую тебе! \n Робота у нас досить пилувата, потрiбно розносити посилки в цiлостi та збереженостi. \n Готовий до працi?",
+		"answers": [
+			{ "text": "Так, погоджуюсь", "callback": ["Jobs-ShowMenu", "Postal"] },
+			{ "text": "Нi, вибачте" }
+		]
+	},
+	{
+		"title": "Докер",
+		"text": "Привiт! Готовий попрацювати з нами у порту?",
+		"answers": [
+			{ "text": "Так, готовий", "callback": ["Jobs-ShowMenu", "Waterfront"] },
+			{ "text": "Нi, вибачте" }
+		]
+	},
+	{
+		"title": "Механiк",
+		"text": "Бажаєте взяти транспортний засiб?",
+		"answers": [
+			{ "text": "Так", "callback": ["Factions-ShowGarage"] },
+			{ "text": "Нi, вибачте" }
+		]
+	},
+	{
+		"title": "Шнорик",
+		"text": "Привiт! Що бажаєш?",
+		"answers": [
+			{ "text": "Пiдгони тачку, по-братськи", "callback": ["Factions-ShowGarage"] },
+			{ "text": "Хочу доставляти товар", "callback": ["Jobs-ShowMenu", "Smuggling"] },
+			{ "text": "Нiчого, поки що" }
+		]
+	},
+	{
+		"title": "Бро",
+		"text": "What's up, homie?",
+		"answers": [
+			{ "text": "Потрiбна тачка, термiново", "callback": ["Factions-ShowGarage"] },
+			{
+				"text": "Хочу пiти на битву за територiю",
+				"callback": ["ZoneCapture-ToDimension"]
+			},
+			{ "text": "Все добре" }
+		]
+	},
+	{
+	  "title": "Менеджер по продажах",
+	  "text": "Привiтання, ласкаво просимо до VIP салону! \n Показати вам премiальнi авто?",
+	  "answers": [
+		{
+		  "text": "Так, покажiть, що у вас є в продажу",
+		  "callback": ["Services-ShowMenu", "vip_shop"]
+		},
+		{ "text": "Нi, до побачення" }
+	  ]
+	},
+	{
+		"title": "Продавец",
+		"text": "Вiтаю! Пропоную оренду човнiв за 2500$ готiвкою. Берете?",
+		"answers": [
+		  { "text": "Так, давайте", "callback": ["Services-ShowMenu", "boat_rent"] },
+		  { "text": "Нi, дякую" }
+		]
+	  },
+	  {
+		"title": "Шеф-кухар",
+		"text": "Привiт! Хочеш виловити рибу для нашого кафе? \n Грошима не ображуся!",
+		"answers": [
+		  { "text": "Вже взяв, тримай товар", "callback": ["Services-ShowMenu", "fish_sale"] },
+		  { "text": "Ок, я подумаю" }
+		]
+	  }
+]	  
